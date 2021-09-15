@@ -1,6 +1,6 @@
 import { MagazineArticle } from './magazine-article';
 
-export interface MagazineIssueBase {
+interface MagazineIssueBase {
   id: string;
   month: number;
   year: number;

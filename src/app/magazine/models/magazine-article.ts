@@ -1,6 +1,6 @@
 import { MagazineImage } from './magazine-image';
 
-export interface MagazineArticleBase {
+interface MagazineArticleBase {
   id: string;
   title: string;
   textContent: string;
