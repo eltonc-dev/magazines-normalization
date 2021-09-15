@@ -4,6 +4,10 @@ import { Magazine } from '../../models/magazine';
 import { MagazineSchemas } from './magazine-schemas';
 import { EntityMagazineState, ResultMagazineState } from '../state/magazine.state';
 
+/*
+ * I separate the normalizers in a single file just to create a wrapper and isolate this part of the code
+ *
+ */
 export const normalizeMagazines = (magazines: Magazine[] = []): { entities: EntityMagazineState, result: ResultMagazineState } => {
   return normalize({magazines} , MagazineSchemas.completeSchema);
 }

@@ -8,6 +8,14 @@ The purpose of this project is to design a normalized store and present the resu
 More Details about the requirements can bee seen [here](./requirements.md)
 
 
+## Notes
+* All the Magazine code is concentrated inside `MagazinesModule` with is a feature Module.
+* I choose the `normalizr` to normalize/denormalize the data  
+* I added some comments in some files trying to explain better what I did and why
+* I wrote some unit tests ![coverage evidence image](coverage-evidence.png)
+
+
+
 
 
 

@@ -1,5 +1,9 @@
 import { schema } from 'normalizr';
 
+
+/**
+ * I put all my schemas together here, because this way i think is better organized and better to reuse
+ */
 const image = new schema.Entity('images');
 
 const article = new schema.Entity('articles', {
