@@ -1,6 +1,15 @@
-# Magazines
-
+# Magazines Project
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+
+# About
+
+The purpose of this project is to design a normalized store and present the results denormalized.
+
+More Details about the requirements can bee seen [here](./requirements.md)
+
+
+
+
 
 ## Development server
 
