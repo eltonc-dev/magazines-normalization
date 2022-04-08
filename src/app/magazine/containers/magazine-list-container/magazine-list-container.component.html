@@ -1,0 +1,8 @@
+<h1>Magazine List</h1>
+<div class="container">
+  <!-- TODO: Deal with empty lists -->
+  <app-magazine *ngFor="let magazine of magazines$ | async"
+    [name]="magazine.name"
+    [issues]="magazine.issues"
+  ></app-magazine>
+</div>
