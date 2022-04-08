@@ -1,0 +1,13 @@
+<div class="date">
+  <span class="month">{{month}}</span>/<span class="year">{{year}}</span>
+</div>
+<ul class="articles-container">
+  <!-- TODO: Deal with empty lists -->
+  <li *ngFor="let article of articles">
+    <app-magazine-article
+      [title]="article.title"
+      [textContent]="article.textContent"
+      [images]="article.images"
+    ></app-magazine-article>
+  </li>
+</ul>

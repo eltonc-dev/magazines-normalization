@@ -1,0 +1,11 @@
+<h3>{{name}}</h3>
+<ul class="issues-container">
+  <!-- TODO: Deal with empty lists -->
+  <li *ngFor="let issue of issues">
+    <app-magazine-issue
+      [month]="issue.month"
+      [year]="issue.year"
+      [articles]="issue.articles"
+    ></app-magazine-issue>
+  </li>
+</ul>
